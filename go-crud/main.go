@@ -9,8 +9,8 @@ import (
 
 func main() {
 	r := router.Router()
-	fmt.Println("Starting server")
-	log.Fatal(http.ListenAndServe(":8000", r))
+	fmt.Println("Starting server at 8080")
+	log.Fatal(http.ListenAndServe(":8080", r))
 }
 
 // package main
